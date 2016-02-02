@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>Contact Us</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="home.html"><h4>TECKNOLOGICS</h4></a>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="page_about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="page_services.html">Services</a>
+                    </li>
+                    <li class="active">
+                        <a href="page_contact.html">Contact</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact
+                    
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contact Us!!!</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+                <!-- Embedded Google Map -->
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contact Details</h3>
+                <p>
+                    75 Alphonsus Street<br>Roxbury Crossing,Boston MA 02120<br>
+                </p>
+                
+                    <abbr title="telephone">Phone</abbr>:857 999 1604</p>
+                <p>
+                    <abbr title="email address">E-mail</abbr>: <a href="mailto:name@example.com">email@domain.com</a>
+                </p>
+                <p>
+                    <abbr title="timings">Hours</abbr>: Monday to Saturday: 9:00 AM to 4:00 PM</p>
+					<p>You can meet us at:<input type="date" id="datapicker" size="20" placeholder=" Select your date"></p>
+					
+					<!--- Launch a popup-->
+					
+					<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+  Apply Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Instructions for the Application Process.</h4>
+      </div>
+      <div class="modal-body">
+       
+	   <p>Apply on NextStep portal:</p>
+	   
+	   <p>1.Click New Candidate to begin.</p><br/>
+	   <p>2.To initiate the selection process,register on-line on the portal.</p><br/>
+	   <p>3.Upload your recent digital passport size.</p><br/>
+	   <p>4.Upload your updated resume.</p><br/>
+	   <p>5.Submit your application.</p>
+	   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of popup-->
+					
+                
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Send us a Email message</h3>
+                <form name="sentEmail" id="submitForm" >
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" id="fullname"  placeholder=" enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                   
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="mail" name="mailid" placeholder=" enter your email address."><span id="span1"></span>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="70" class="form-control" id="textmessage"  placeholder=" enter your message" maxlength="100"></textarea>
+                        </div>
+                    </div>
+					
+					<button type="button" class="btn btn-primary">SendMessage</button>
+					<div class="anu">
+					<img class="dasari" src="images/done.jpg" style="display:none"><span id="span2"></span>
+                   </div> 
+                  
+                    
+                </form>
+            </div>
+			
+			<div class="col-md-offset-2 col-md-4">
+			<h2>Our Branches</h2><br/>
+			
+			<ul class="nav nav-pills">
+  <li role="branches" class="bos"><a href="#" class="bos">Boston</a></li>
+  <li role="branches" class="new"><a href="#" class="new">NewYork</a></li>
+  <li role="branches" class="newh"><a href="#" class="newh">NewHampshire</a></li>
+</ul><br/>
+
+         <div style="height:500px" class="branch">
+			
+			</div>
+			
+			</div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="text-align:center">Copyright My Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+<!--<link rel="stylesheet" href="js/jqueryui/jquery-ui.min.css">-->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	<!--
+	<script src="js/jqueryui/jquery-ui.min.js"></script>
+	<script src="js/jqueryui/external/jquery/jquery.js"></script>-->
+	
+	
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    
+    
+	<script>
+	$(document).ready(function()
+	{
+	
+	$("#mail").blur(function()
+	{
+	
+	$.ajax({url:"validateemail.php",data:{name:$("#mail").val()},success:function(response)
+	{
+	$("#span1").html(" "+response).css({"color":"red","font-weight":"bold"});
+	}
+	});
+	});
+	
+	$("button").click(function()
+	{
+	
+	$(".dasari").show();
+	
+	$.ajax({url:"submitmail.php",data:{name:$("#mail").val()},success:function(response)
+	{
+	
+	$("#span2").html(" "+response);
+	}
+	});
+	});
+	
+	$(".bos").hover(function()
+	{
+	$("div.branch").show();
+	$("div.branch").html("<img src='images/branches/boston.jpg' alt='Boston' width='400' height='400'>");
+	$("div.branch").show();
+	
+	
+	}
+	
+	);
+	$(".bos").mouseleave(function()
+	{
+	$("div.branch").hide();
+	}
+	);
+	
+	$(".new").hover(function()
+	{
+	$("div.branch").show();
+	$("div.branch").html("<img src='images/branches/newyork.jpg' alt='NewYork' width='400' height='400'>");
+	$("div.branch").show();
+	
+	
+	}
+	
+	);
+	
+	$(".new").mouseleave(function()
+	{
+	$("div.branch").hide();
+	}
+	);
+	
+	$(".newh").hover(function()
+	{
+	$("div.branch").show();
+	$("div.branch").html("<img src='images/branches/newhampshire.jpg' alt='NewYork' width='400' height='400'>");
+	$("div.branch").show();
+	
+	
+	}
+	
+	);
+	
+	$(".newh").mouseleave(function()
+	{
+	$("div.branch").hide();
+	}
+	);
+	
+	
+	
+	
+	});
+	
+	
+	
+	</script>
+
+</body>
+
+</html>
